@@ -9,7 +9,7 @@ def powerset(lst):
     for i in range(1<<x):
         # 만약 i의 j 번째 비트가 1이면 lst의 j번째 원소를 출력한다.
         # print([lst[j] for j in range(x) if i & (1<<j)])
-        res.append([lst[j] for j in range(x) if i & (1<<j)])
+        res.append([lst[j] for j in range(x) if i & (1 << j)])
     return res
 print(powerset([3, 6, 7, 1, 5, 4]))
 
