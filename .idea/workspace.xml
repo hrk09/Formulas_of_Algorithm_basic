@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74baa06e-7d35-4974-8f1c-5471977ee105" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DFS/practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/백준_1260/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/백준_1260/solve2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/부분집합/부분집합(1).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/이진검색/swea_4839_이진탐색/solve3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/이진검색/이진탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BFS/bfs2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/알고리즘_기본공식.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/알고리즘_기본공식.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS/dfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/거듭제곱/거듭제곱.py" beforeDir="false" afterPath="$PROJECT_DIR$/거듭제곱/거듭제곱.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/부분집합/부분집합.py" beforeDir="false" afterPath="$PROJECT_DIR$/부분집합/부분집합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/부분집합/알고리즘의_기본공식_부분집합.txt" beforeDir="false" afterPath="$PROJECT_DIR$/부분집합/알고리즘의_기본공식_부분집합.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS/bfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/BFS/bfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS/백준_1260/solve_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/BFS/백준_1260/solve_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS/알고리즘의_기본공식_BFS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BFS/알고리즘의_기본공식_BFS.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SWEA" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -52,28 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.solve3">
-    <configuration name="거듭제곱" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="알고리즘_기본공식" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/거듭제곱" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/거듭제곱/거듭제곱.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.solve_final">
     <configuration name="부분집합" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘_기본공식" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘_기본공식" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/bfs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="solve2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bfs2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘_기본공식" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS/백준_1260" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS/백준_1260/solve2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/bfs2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,20 +151,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="solve_final" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="알고리즘_기본공식" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS/백준_1260" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/백준_1260/solve_final.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="알고리즘_기본공식" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS/백준_1260" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/백준_1260/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.practice" />
-      <item itemvalue="Python.solve2" />
-      <item itemvalue="Python.거듭제곱" />
-      <item itemvalue="Python.부분집합" />
       <item itemvalue="Python.solve3" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.solve_final" />
+      <item itemvalue="Python.bfs2" />
+      <item itemvalue="Python.bfs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.solve_final" />
+        <item itemvalue="Python.bfs" />
+        <item itemvalue="Python.bfs2" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.solve3" />
-        <item itemvalue="Python.부분집합" />
-        <item itemvalue="Python.거듭제곱" />
-        <item itemvalue="Python.solve2" />
-        <item itemvalue="Python.practice" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +228,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

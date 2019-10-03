@@ -19,9 +19,9 @@ def dfs(start):
     return stack
 
 # bfs 함수
-def bfs(g, start):
+def bfs(start):
     visited = []
-    q = []
+    # q = []
     q.append(start)
     while q:
         n = q.pop(0)
@@ -42,6 +42,7 @@ for e in range(edge):
 
 visit = [0]*(node+1)
 stack = []
+q = []
 
 # 양방향 그래프 만들기/ 대입
 g = [[0] * (node+1) for i in range(node+1)]
@@ -50,6 +51,6 @@ for i in range(0, len(edges), 2):
     g[edges[i+1]][edges[i]] = 1
 
 res1 = dfs(start)
-res2 = bfs(g, start)
+res2 = bfs(start)
 print(' '.join([str(i) for i in res1]))
 print(' '.join([str(i) for i in res2]))

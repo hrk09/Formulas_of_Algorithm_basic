@@ -12,6 +12,7 @@
  출력 결과의 예는 다음과 같다.
 – 1-2-3-4-5-7-6
 '''
+
 def BFS(graph, v):# 그래프 G, 탐색 시작점 v
     visit = list()
     queue = list()

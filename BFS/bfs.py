@@ -1,8 +1,10 @@
+# bfs 구현시 유의사항
+# dfs와 다르게 재귀호출을 사용하지 않는다는 것 큐를 이용해 iteractive하게 구현함
+
 def BFS(graph, v):# 그래프 G, 탐색 시작점 v
     q = []
-
     q.append(v)
-    while q: # 큐가 비어있지 않은 경우
+    while q: # 큐에 값이 있으면 실행
         node = q.pop(0)# 큐의 첫번째 원소 반환
         if node not in visited:# 방문되지 않은 곳이라면
             visited.append(node)# visit에 node 추가
