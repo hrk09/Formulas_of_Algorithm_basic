@@ -21,12 +21,12 @@ def BFS(graph, v):# 그래프 G, 탐색 시작점 v
     while queue: # 큐가 비어있지 않은 경우
         node = queue.pop(0)# 큐의 첫번째 원소 반환
         if node not in visit:# 방문되지 않은 곳이라면
-            # print("{} 미방문".format(node))
+            # print("{} 미방문".format(node)) #디버깅시 확인용. 암기할 필요없다
             visit.append(node)# 방문한 것으로 표시
-            # queue.extend(graph[node])
-            # print("G[{}] {}".format(node,G[node]))
+            # queue.extend(graph[node]) #디버깅시 확인용. 암기할 필요없다
+            # print("G[{}] {}".format(node,G[node])) #디버깅시 확인용. 암기할 필요없다
             for i in range(1,len(G[node])):
-                # print("G[{}][{}] = {}".format(node,i,G[node][i]))
+                # print("G[{}][{}] = {}".format(node,i,G[node][i])) #디버깅시 확인용. 암기할 필요없다
                 if G[node][i] and i not in visit and i not in queue: queue.append(i)
             # print("queue=",queue)
     return visit
